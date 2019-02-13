@@ -1,0 +1,9 @@
+<?php
+
+namespace FondOfSpryker\Yves\CatalogPageStore\Dependency\Client;
+
+use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToCategoryStorageClientInterface as SprykerShopCatalogPageToCategoryStorageClientInterface;
+
+interface CatalogPageStoreToCategoryStoreStorageClientInterface extends SprykerShopCatalogPageToCategoryStorageClientInterface
+{
+}
