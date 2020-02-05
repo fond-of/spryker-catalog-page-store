@@ -1,17 +1,12 @@
 <?php
-
+//SprykerUpgradeToDo is this still needed?
 namespace FondOfSpryker\Yves\CatalogPageStore;
 
+use FondOfSpryker\Yves\CatalogPageStore\Dependency\Client\CatalogPageStoreToCategoryStoreStorageClientBridge;
 use Spryker\Yves\Kernel\Container;
-use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToCatalogClientBridge;
-use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToCategoryStorageClientBridge;
-use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToLocaleClientBridge;
-use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToProductCategoryFilterClientBridge;
-use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToProductCategoryFilterStorageClientBridge;
-use SprykerShop\Yves\CatalogPage\Dependency\Client\CatalogPageToSearchClientBridge;
 use SprykerShop\Yves\CatalogPage\CatalogPageDependencyProvider as SprykerShopCatalogPageDependencyProvider;
 
-class CatalogPageDependencyProvider extends SprykerShopCatalogPageDependencyProvider
+class CatalogPageStoreDependencyProvider extends SprykerShopCatalogPageDependencyProvider
 {
     /**
      * @param \Spryker\Yves\Kernel\Container $container
