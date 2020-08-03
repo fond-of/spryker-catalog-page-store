@@ -1,5 +1,6 @@
 <?php
 //SprykerUpgradeToDo is this still needed?
+
 namespace FondOfSpryker\Yves\CatalogPageStore;
 
 use FondOfSpryker\Yves\CatalogPageStore\Dependency\Client\CatalogPageStoreToCategoryStoreStorageClientBridge;
